@@ -57,6 +57,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         width={732}
         height={440}
         priority
+        placeholder="blur"
+        blurDataURL={`/_next/image?url=${src}&w=16&q=1`}
       />
     ),
     ...components,
